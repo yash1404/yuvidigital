@@ -1,0 +1,296 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+
+.nav-item a{
+  color:#fff;
+margin-bottom: 1em;
+margin-left:15px;
+}
+.nav-item a:hover{
+  color:orange;
+  background-color:#000;
+  font-weight:700;
+  border:1px solid orange;
+  transition:  0.5s ease  linear;
+}
+/*medias queries*/
+
+ @media screen and (max-width:480px){
+
+ nav
+ { width:105%;
+
+
+}
+.nav-item a{
+  color:#fff;
+margin-bottom: 2em;
+margin-left:0px;
+font-size:12px;
+display: inline-block;
+} 
+.nav-item a:hover{
+  color:orange;
+  background-color:#000;
+  font-weight:700;
+  border:1px solid orange;
+  transition:  0.5s ease  linear;
+}
+
+
+ }
+
+.logo{
+  
+ margin-right: 48rem;
+}
+.logo2{
+  font-size:1.3em;
+  margin-top:10px;
+  margin-left:0px;
+  color:white
+}
+@media screen and (max-width:480px){
+  .logo{
+    margin-right:5.5rem;
+  } 
+  .logo2{
+    font-size:1em;
+    margin-top:9px;
+    margin-left:0px;
+    color:white
+  }
+}
+
+
+
+
+
+/* home section */
+#home{
+  background:linear-gradient(white,skyblue);
+  height:90vh;
+  width:100%;
+}
+
+.image{
+ height:30rem;
+ width:30rem; 
+ margin-top:2.2em;
+}
+.div{
+  position:absolute;
+  top:20%;
+  left:0%;
+  transform: translate(-20%,); 
+}
+.top{
+  font-size:5em;
+  font-family:Poppins;
+  text-transform: capitalize;
+  text-shadow: 2px 3px brown;
+}
+
+.press {
+font-size:20px;
+border:2px solid rgb(39, 38, 37);
+margin-top:2em;
+margin-left:7rem;
+box-shadow: 2px 4px;
+background-color: lightgoldenrodyellow;
+letter-spacing: 1px;
+
+}
+.press a{
+  color: black;
+  font-weight:600;
+}
+.press a:hover{
+  background-color: rgb(252, 84, 18);
+  text-decoration: none;
+  color:black;
+  letter-spacing:1.7px;
+  text-transform:uppercase;
+  transition: all 0.5s ease;
+
+}
+@media screen and (max-width:480px){
+  #home{
+    background:linear-gradient(white,skyblue);
+    height:80vh;
+    width:105%;
+  }
+  .image{
+    height:20rem;
+    width:20rem; 
+    margin-top:15rem;
+    margin-left:3.5rem;
+   }
+   .top{
+    font-size:4em;
+    font-family:Poppins;
+    text-transform: capitalize;
+    text-shadow: 2px 3px brown;
+    margin-left:50px;
+  }
+  .press {
+    font-size:15px;
+    border:2px solid rgb(39, 38, 37);
+    margin-top:1em;
+    margin-left:9rem;
+    box-shadow: 2px 4px;
+    background-color: lightgoldenrodyellow;
+    letter-spacing: 1px;
+    
+    }
+  
+
+}
+
+
+/*about section*/
+.image2{
+  margin-top:3em;
+  height:25rem;
+  width:30rem;
+  border-radius:50px;
+
+}
+
+.head{
+  font-size:30px;
+  text-transform:uppercase;
+  margin-top:3em;
+}
+
+.para{
+  margin-top: 15px;
+  font-family:Poppins;
+  font-size:20px;
+  text-transform: capitalize;
+
+}
+
+
+/* service */
+
+#service{
+width:100%;
+
+}
+
+.point{
+  margin-top:1.6em;
+  padding:10px;
+}
+
+.photo{
+  height:11rem;
+  width:18rem;
+  border:1px solid black;
+}
+.pamplate,.business,.shine,.banner{
+  height:11rem;
+  width:18rem;
+  border:1px solid black;
+  margin-top:2em; 
+}
+
+.something{
+  height:1em;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-align:center;
+
+}
+/*contact*/
+
+#contact{
+  background-color:black;
+}
+.contacthead{
+  text-transform:capitalize;
+  text-align:center;
+  color:beige;
+
+}
+.list{
+ display: flex; 
+ justify-content: space-between;
+ align-items:center;
+ margin-top:5px;
+}
+.list li{
+  list-style-type: none; 
+  margin-top: 20px; 
+}
+.list li a{
+
+font-size:20px;
+text-decoration: none;
+color:yellow;
+letter-spacing:2px;
+border:1px solid beige;
+}
+
+.list li a:hover{
+
+color:orange;
+  background-color:#000;
+  font-weight:700;
+
+  border:1px solid orange;
+  letter-spacing:4px;
+  transition: all 0.5s ease;
+  }
+
+
+.data{
+  margin-top:10px;
+  font-size:18px;
+color:beige;
+}
+
+.datatwo{
+  color:beige;
+  text-align:center;
+}
+@media screen and (max-width:480px){
+  .data{
+    
+    margin-left:21px;
+  color:beige;
+  } 
+}
+
+.pictures{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.instagram{
+  height:35px;
+  margin-right:20px;
+  border:2px solid burlywood;
+  border-radius:50px;
+}
+
+.facebook{
+  height:35px;
+  margin-right:20px;
+  border:2px solid burlywood;
+  border-radius:50px;
+}
+
+.twitter{
+  height:35px;
+  margin-right:20px;
+  border:2px solid burlywood;
+  border-radius:50px;
+}
